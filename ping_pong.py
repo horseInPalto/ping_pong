@@ -6,7 +6,7 @@ window = display.set_mode(size)
 display.set_caption("Пинг-понг")
 background = transform.scale (image.load("background.png"), size)
 FPS = 60
-clock = time.Clock()
+
 
 class GameSprite(sprite.Sprite):
     def __init__(self, player_image, player_x, player_y, player_speed):
